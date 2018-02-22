@@ -1,0 +1,181 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../HelveticaNeueLTStdCn.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: HelveticaNeue;
+}
+body{
+    overflow: hidden;
+    background: #4facdb;
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.animations{
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+
+.animations .logo{
+    transform: scale(1.5);
+    position: absolute;
+    top: 20% ;
+    left:  calc(50% - 20px) ;
+    width: 40px;
+    height: 40px;
+    z-index: 14;
+}
+.animations .small-info{
+    opacity: 0;
+    position: absolute;
+    font-size: 11px;
+    font-family: "HelveticaNeue";
+    font-weight: 200;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    text-align: justify;
+    z-index: 15;
+}
+.animations .page{
+    width: 100%;
+    text-align: center;
+    background: #4facdb;
+    height: 100%;
+    position: absolute;
+}
+.animations .page ul {
+    list-style: none; 
+    position: relative; 
+    top: 50%;
+}
+.animations .page .element{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 23px;
+    line-height: 1.04;
+}
+
+.animations .page1{
+    z-index: 13;
+}
+
+.animations .page2{
+    z-index: 12;
+}
+.animations .page3{
+    z-index: 11;
+}
+.animations .page4{
+    z-index: 10;
+}
+
+.animations .page2 ul.text {
+    list-style: none; 
+    position: relative; 
+    top: 20%;
+}
+.animations .page1 .element, .animations .page2 .element, .animations .page3 .element{left: 100%;}
+.animations .page2 ul.text .element{font-size: 30px;}
+.animations .page2 ul.price .element{font-size: 30px;}
+.animations .page2 ul.price  {
+    position: relative; 
+    font-size: 30px;
+    top: 35%;
+    line-height: 1.04;
+}
+
+.animations .page2 ul.price .amount {
+    font-size: 70px;
+}
+
+
+.animations .page3 ul {
+    list-style: none; 
+    position: relative; 
+    top: 25%;
+}
+.animations .page3 .element{ line-height: 1.04}
+.animations .page3 .element.el1{
+    font-size: 30px;
+    font-weight: 200;
+}
+.animations .page3 .element.el2{
+    font-size: 60px;
+    font-weight: 200;
+    font-weight: 600;
+    
+}
+.animations .page3 .element.el3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.animations .page3 .element.el4{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.animations .page4 ul {
+    list-style: none; 
+    position: relative; 
+    top: 30%;
+    
+}
+.animations .page4 ul .element {
+    font-size: 23px;
+    font-weight: 200;
+    line-break: 1.2;
+    opacity: 0;
+}
+.animations .page4 ul .button{ 
+    opacity: 0;
+    display: inline;
+    line-height: 32px;
+    text-transform: uppercase;
+    background: #4facdb;
+    font-size: 18px;    
+    margin: 0 20px;
+    margin-top: 50px;
+    padding: 5px 30px;
+    border: 1px solid white;
+}
+
+.video{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video video{
+ 
+ 
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100; 
+}
+.video .map{
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    width: 100%;
+
+}
+.video #map{
+    width: 100%;
+
+}
